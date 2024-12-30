@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/personel2">
+        <file>personnel2.qrc</file>
+    </qresource>
+</RCC>

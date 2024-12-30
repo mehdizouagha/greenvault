@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/boite3">
+        <file>boite3.jpeg</file>
+    </qresource>
+</RCC>

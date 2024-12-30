@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/personnel3">
+        <file>personnel3.jpeg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img.qrc</file>
+        <file>logo.png</file>
+        <file>Screenshot_2024-10-08_134640-removebg-preview.png</file>
+        <file>Screenshot_2024-10-08_134706-removebg-preview.png</file>
+        <file>Screenshot_2024-10-08_134713-removebg-preview.png</file>
+        <file>Screenshot_2024-10-08_134859-removebg-preview.png</file>
+        <file>Screenshot_2024-10-08_134930-removebg-preview.png</file>
+        <file>Screenshot_2024-10-08_135113-removebg-preview.png</file>
+        <file>Screenshot_2024-10-09_092351-removebg-preview.png</file>
+        <file>Screenshot_2024-10-09_093052-removebg-preview.png</file>
+        <file>Screenshot_2024-10-09_093226-removebg-preview.png</file>
+        <file>Capture decran 2024-11-20 163046.png</file>
+    </qresource>
+    <qresource prefix="/imag"/>
+</RCC>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>629</width>
+    <height>310</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>                  BONSOIR VOUS DEVREZ CONNECTER</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 244, 198);
+
+QGroupBox
+{  
+	
+	background-color: rgb(255, 239, 211);
+    border:2px solid black;
+    border-radiius:40px;
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>250</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: white;                      /* Text color */
+    border: 2px solid black;         /* Border width and color */
+    border-radius: 15px;              /* Round the corners */
+    background-color: #005e38;        /* Optional: Set a background color */
+    padding: 10px 20px;               /* Add padding for better aesthetics */
+}
+
+QPushButton:hover {
+    background-color: #45a049;        /* Change background color on hover */
+}
+
+QPushButton:pressed {
+    background-color: #3e8e41;        /* Change background color when pressed */
+}</string>
+   </property>
+   <property name="text">
+    <string>Se Connecter</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditUsername">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>100</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+color:black;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Adresse mail</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditPassword">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>150</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black;
+color:black;</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Mot de passe</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>20</y>
+     <width>381</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;Showcard Gothic&quot;;
+background-color: rgb(255, 223, 172);</string>
+   </property>
+   <property name="text">
+    <string>   BIENVENUE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>0</y>
+     <width>81</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/img/logo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>200</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Stencil&quot;;
+background-color: rgb(255, 223, 172);</string>
+   </property>
+   <property name="text">
+    <string>Souviens moi ?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>-71</y>
+     <width>931</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/img/Capture decran 2024-11-20 163046.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>162</x>
+     <y>149</y>
+     <width>31</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/boite/boite.jpeg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>lineEditUsername</zorder>
+  <zorder>lineEditPassword</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>checkBox</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

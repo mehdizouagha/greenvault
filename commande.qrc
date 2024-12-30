@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/commande">
+        <file>commande.jpeg</file>
+    </qresource>
+</RCC>
